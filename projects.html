@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Pasupula Dharaniswar Reddy</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="projects">
+    <div class="loader" id="loader"><div class="loader-text">Rendering projects...</div><div class="loader-bar"><div class="loader-bar-fill"></div></div></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div id="canvas-container" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <nav class="nav-shell">
+            <a href="index.html" class="logo">PD<span>.</span>REDDY</a>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a class="active" href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-shell inner-page">
+        <section class="page-heading">
+            <p class="kicker">&lt; selected work /&gt;</p>
+            <h1>PROJECT <span>ARCHIVE</span></h1>
+            <p>Practical builds showing backend foundations, front-end workflows, validation, persistence, and polished UI craft.</p>
+        </section>
+
+        <section class="projects-grid">
+            <article class="project-card project-large reveal" data-delay="0">
+                <div class="project-preview blogging-preview"><span>CRUD</span></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>Django</span><span>Python</span><span>HTML</span><span>CSS</span></div>
+                    <h2>Blogging Platform</h2>
+                    <p>Full-stack blogging platform with create, read, update, and delete functionality for blog posts.</p>
+                    <ul class="project-points">
+                        <li>User authentication and authorization.</li>
+                        <li>Django Admin Panel for content and user management.</li>
+                        <li>Responsive templates using Django's templating engine.</li>
+                        <li>Virtual environments, migrations, and deployment setup.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="project-card project-large reveal" data-delay="150">
+                <div class="project-preview portal-preview"><span>VITE</span></div>
+                <div class="project-info">
+                    <div class="project-tags"><span>React</span><span>Vite</span><span>JavaScript</span><span>LocalStorage</span></div>
+                    <h2>Job Application Portal</h2>
+                    <p>Modern front-end mini project for managing job application form workflows.</p>
+                    <ul class="project-points">
+                        <li>Form handling with client-side validation.</li>
+                        <li>Resume upload flow with validation checks.</li>
+                        <li>LocalStorage persistence across sessions.</li>
+                        <li>React Router navigation plus listing, search, and filtering.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="project-card project-large reveal" data-delay="300">
+                <a class="project-preview brewhaus-preview" href="https://brewhaus-react.vercel.app/" target="_blank" rel="noreferrer" aria-label="Open Brewhaus Cafe live project">
+                    <span>BREWHAUS</span>
+                </a>
+                <div class="project-info">
+                    <div class="project-tags"><span>React</span><span>Vercel</span><span>UI Design</span><span>Cafe</span></div>
+                    <h2>Brewhaus Cafe</h2>
+                    <p>Premium coffee website with a dark editorial interface, catalog navigation, and immersive cafe branding.</p>
+                    <ul class="project-points">
+                        <li>Built a polished React experience for a boutique coffee brand.</li>
+                        <li>Designed a rich first-screen experience with strong product atmosphere.</li>
+                        <li>Deployed live on Vercel for fast public access.</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://brewhaus-react.vercel.app/" target="_blank" rel="noreferrer">Live Project</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer"><p>Built around backend clarity, responsive UI, and useful workflows.</p></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

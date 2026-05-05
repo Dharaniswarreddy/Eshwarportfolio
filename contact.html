@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Pasupula Dharaniswar Reddy</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="contact">
+    <div class="loader" id="loader"><div class="loader-text">Opening contact channel...</div><div class="loader-bar"><div class="loader-bar-fill"></div></div></div>
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <div id="canvas-container" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <nav class="nav-shell">
+            <a href="index.html" class="logo">PD<span>.</span>REDDY</a>
+            <button class="hamburger" id="hamburger" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="page-shell inner-page contact-layout">
+        <section class="page-heading contact-heading">
+            <p class="kicker">&lt; contact /&gt;</p>
+            <h1>LET'S <span>CONNECT</span></h1>
+            <p>Open to entry-level Python developer roles, backend development work, and software engineering opportunities.</p>
+        </section>
+
+        <section class="contact-grid">
+            <article class="contact-card reveal" data-delay="0">
+                <p class="contact-label">Email</p>
+                <a href="mailto:dharaniswarreddypasupula@gmail.com">dharaniswarreddypasupula@gmail.com</a>
+            </article>
+            <article class="contact-card reveal" data-delay="120">
+                <p class="contact-label">Phone</p>
+                <a href="tel:+916302199525">6302199525</a>
+            </article>
+            <article class="contact-card reveal" data-delay="240">
+                <p class="contact-label">LinkedIn</p>
+                <a href="https://www.linkedin.com/in/pdharaniswarreddy" target="_blank" rel="noreferrer">pdharaniswarreddy</a>
+            </article>
+        </section>
+
+        <form class="contact-form reveal" data-delay="320">
+            <div class="form-row">
+                <label><span>Name</span><input type="text" name="name" placeholder="Your name" required></label>
+                <label><span>Email</span><input type="email" name="email" placeholder="your@email.com" required></label>
+            </div>
+            <label><span>Message</span><textarea name="message" placeholder="Write your message" required></textarea></label>
+            <button class="submit-btn" type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <footer class="site-footer"><p>Available for Python, Django, REST API, and React opportunities.</p></footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
